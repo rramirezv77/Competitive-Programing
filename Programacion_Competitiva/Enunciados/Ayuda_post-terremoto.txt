@@ -1,0 +1,50 @@
+Ayuda Post-Terremoto
+Tras un devastador terremoto en tu ciudad, como alcalde de Arcadia, necesitas evaluar las conexiones entre las localidades afectadas. Te preocupa saber si las rutas de abastecimiento a las localidades aún están disponibles y cuáles de estas rutas podrían utilizarse para llevar ayuda. Para lograr esto, has pedido a varios ciudadanos que viajen desde una ciudad a otra y que informen si lograron llegar a su destino. Ahora, debes determinar si es factible encontrar varias secuencias de recorridos entre ciudades dadas las conexiones existentes.
+
+Dado un número entero 
+ que representa la cantidad de pares de ciudades y 
+ pares de números que indican las conexiones entre las ciudades, tu tarea es determinar si es posible encontrar 
+ secuencias de recorridos entre ciudades. Cada secuencia es representada por una conexión entre ciudades.
+
+Descripción de la entrada: La primera línea contiene dos números: un número entero 
+ 
+, que representa la cantidad de ciudades y un número entero 
+ 
+, que representa la cantidad de conexiones entre ciudades. Luego siguen 
+ líneas, cada una conteniendo dos números enteros 
+ y 
+ 
+, que indican una conexión entre las ciudades 
+ y 
+. Finalmente, viene un número entero número entero 
+ 
+ que indica la cantidad de rutas a probar seguido 
+ rutas a probar, escritas cada una en dos lineas, la primera tiene un entero 
+ con el número de ciudades en la ruta y la segunda linea tiene 
+ números diferentes, cada uno menor que 
+ que representa la secuencia de ciudades de la ruta.
+
+Descripción de la Salida: Por cada una de las 
+ rutas debes imprimir "SI" si es posible encontrar la secuencias de recorridos entre ciudades, y "NO" en caso contrario.
+
+Casos de prueba:
+
+Entrada	
+5 5 
+1 2
+2 5
+1 3
+3 4
+4 5
+3
+3
+1 2 5
+4
+1 3 4 5
+3
+1 3 5
+
+Salida
+SI
+SI
+NO
