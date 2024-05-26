@@ -1,0 +1,21 @@
+Distribución en el Balancín del Kinder
+En el colorido mundo de la enseñanza preescolar, tú eres el amable profesor que siempre busca nuevas formas de divertir y educar a tus pequeños alumnos. Hoy te enfrentas a un desafío peculiar: deseas saber de cuántas maneras diferentes puedes distribuir a tus niños en un balancín para que se diviertan mientras mantienen el equilibrio. Si hay una cantidad impar de niños, hay que considerar que las formas en que los niños se pueden subir al balancín dejando uno a fuera.
+
+Descripción de la entrada: Tu entrada es un entero 
+ con el número de casos de prueba. Cada caso de prueba parte un un entero 
+ que es el largo una lista de números flotantes que viene en la siguiente linea. Cada número representa el peso de uno de tus alumnos.
+
+Descripción de la Salida: Para cada caso de prueba, debe haber una linea con cuántas maneras puedes permutar a los niños en el balancín de modo que cumpla con la condición de equilibrio, es decir, la suma de la primera mitad de los pesos sea igual a la suma de la segunda mitad.
+
+Casos de prueba:
+
+Entrada	
+2
+4
+1 3 4 0
+5
+1 3 4 0 1000
+
+Salida
+8
+8

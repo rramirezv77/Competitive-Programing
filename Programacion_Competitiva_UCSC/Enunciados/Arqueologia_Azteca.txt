@@ -1,0 +1,35 @@
+Arqueología Azteca
+Mientras exploras las antiguas pirámides aztecas en busca de secretos ocultos, te encuentras con una tarea desafiante. Has descubierto una colección de fragmentos de planos de pirámides que están completamente desordenados. Cada fragmento representa un piso de una pirámide y contiene información sobre los pesos de los bloques en ese piso.
+
+El problema es que los fragmentos están mezclados y desordenados, y necesitas ordenarlos para entender la estructura de la pirámide. Las pirámides tiene la siguiente regla de construcción:
+
+Los pisos con más bloques están más abajo que los pisos con menos bloques.
+Los blques más pesados en un mismo piso están a la izquierda y los más livianos hacia la derecha.
+Tu objetivo es escribir un programa que tome un número entero 
+ 
+ que representa la cantidad de pisos de la pirámide y 
+ arreglos de números enteros, que representa los bloques de ese piso, y reconstruya la pirámide.
+
+Descripción de la entrada: La primera línea contiene un número entero 
+, que representa la cantidad de pisos de la pirámido. Luego siguen 
+ líneas, donde cada línea contiene un arreglo de números enteros separados por espacios. El primer elemento de cada arreglo indica cuantos números siguen despues de él. Cada arreglo tiene una longitud menor a 
+ y los números en los arreglos son enteros de valor absoluto menor que 
+.
+
+Descripción de la Salida: Debes imprimir 
+ líneas, donde la 
+-ésima línea contiene el arreglo correspondiente al 
+-ésimo piso de la pirámide después de reconstirla de acuerdo a las reglas de construcción que se indicaron.
+
+Casos de prueba:
+
+Entrada
+3
+2 2 1
+3 3 1 2
+
+Salida
+1 1
+1 
+2 1 
+3 2 1 

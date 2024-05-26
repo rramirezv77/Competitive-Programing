@@ -1,0 +1,34 @@
+Agua
+Imagina que eres un físico investigando los distintos estados del agua en función de su temperatura. Para ello, necesitas crear un algoritmo que reciba como entrada la temperatura en grados Celsius y determine en qué estado se encontraría el agua. Sabes que el agua puede encontrarse en tres estados diferentes: sólido, líquido o gaseoso, dependiendo de su temperatura. El punto de congelación del agua es de 0 grados Celsius y el punto de ebullición es de 100 grados Celsius.
+
+Descripción de la entrada:
+
+Un número entero 
+, 
+, la temperatura del agua.
+
+Descripción de la salida:
+
+La salida del algoritmo será un mensaje que indique en qué estado se encontraría el agua en función de su temperatura. Si la temperatura es menor a 0 grados Celsius, el mensaje dirá: "El agua estara en estado solido ". Si la temperatura está entre 0 y 100 grados Celsius, ambos incluidos, el mensaje dirá: "El agua estara en estado liquido". Si la temperatura es mayor a 100 grados Celsius, el mensaje dirá: "El agua estara en estado gaseoso".
+
+Casos de prueba
+Caso de prueba 1
+Entrada	
+-5
+
+Salida
+El agua estara en estado solido 
+
+Caso de prueba 2
+Entrada	
+2
+
+Salida
+El agua estara en estado liquido
+
+Caso de prueba 3
+Entrada
+150
+
+Salida
+El agua estara en estado gaseoso

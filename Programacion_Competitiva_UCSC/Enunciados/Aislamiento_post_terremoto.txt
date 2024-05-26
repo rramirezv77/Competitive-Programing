@@ -1,0 +1,40 @@
+Aislamiento Post-Terremoto
+Como alcalde de la ciudad de Arcadia, enfrentas una situación crítica después de un devastador terremoto. La ayuda y los recursos necesarios se centralizan en la municipalidad, pero es fundamental saber qué localidades aún están conectadas y cuáles están aisladas. La red de carreteras ha sido dañada y es difícil determinar qué localidades están completamente aisladas del centro.
+
+Tienes información sobre el estado de algunas carreteras, lo que te permite conocer los caminos habilitados. Ahora, tu tarea es escribir un programa que, dados el número de localidades 
+ 
+ y la cantidad de caminos 
+ 
+ que las conectan, determine cuáles localidades están aisladas.
+
+Descripción de la entrada: La primera línea contiene dos números enteros separados por espacio: 
+ y 
+, ambos menores que 
+, que representan el número de localidades y la cantidad de caminos respectivamente. Luego siguen 
+ líneas, cada una conteniendo dos números enteros 
+ y 
+ 
+, que indican una conexión entre las localidades 
+ y 
+.
+
+Descripción de la Salida: Debes imprimir una línea con los números de las ciudades aisladas ordenadas de menor a mayor.
+
+Casos de prueba:
+
+Casos de prueba 1:
+
+Entrada	
+5 2
+1 2
+2 3   
+
+Salida
+4 5 
+Casos de prueba 2:
+
+Entrada	
+5 0
+
+Salida
+2 3 4 5 
